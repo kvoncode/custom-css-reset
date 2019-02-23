@@ -1,0 +1,53 @@
+/* Basic Rules */
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body, html {
+    width: 100%;
+}
+
+/* Responsive image Full Height and Width with text on it*/
+.img-r-fh {
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(90%);
+    z-index: -100;
+    width: 100vw;
+    height: 100vh;
+}
+
+.center-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-msg {
+    font-family: 'Open Sans Condensed', sans-serif;
+    position: absolute;
+    font-size: 3em;
+    color: white;
+    opacity: 1;
+    text-align: left;
+    z-index: -1;
+    line-height: normal;
+    left: 10%;
+    bottom: 50%;
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.limit-width {
+    max-width: 840px;
+    margin: auto;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
